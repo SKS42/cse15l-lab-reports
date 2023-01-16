@@ -18,4 +18,4 @@ But instead of the zz enter your letters in your acount you found earlier in the
 If it asks you if you want to continue connecting, type yes.
 Next you are going to type in your password you just reset. (Notice: If it's been less than 15 min after you reset your password it might not work)
 After you type in your password your terminal should look something like this:
-![Image](Screen Shot 2023-01-12 at 2.19.02 PM.png)
+![Image](Screen Shot 2023-01-12 at 2.42.45 PM.png)
