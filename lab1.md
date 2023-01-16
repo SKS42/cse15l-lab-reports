@@ -10,3 +10,4 @@ Now you have to download visual studio code for this lab. Go to this link to dow
 https://code.visualstudio.com/
 If you have mac download the mac version, if you have windows64 or 32 download the corect version. 
 Once you have visual studio code downloaded and opened, it should look something like this:
+![Image](Screen Shot 2023-01-12 at 2.19.02 PM.png)
