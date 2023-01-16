@@ -11,3 +11,10 @@ https://code.visualstudio.com/
 If you have mac download the mac version, if you have windows64 or 32 download the corect version. 
 Once you have visual studio code downloaded and opened, it should look something like this:
 ![Image](Screen Shot 2023-01-12 at 2.19.02 PM.png)
+Now you are going to open the terminal in visual studio code. You can do this by selecting terminal at the top and selecting new terminal.
+Next you are going to log in to the UCSD remote server using visual studio code.
+To enter the remote server enter this: **ssh cs15lwi23zz@ieng6.ucsd.edu**
+But instead of the zz enter your letters in your acount you found earlier in the lab.
+If it asks you if you want to continue connecting, type yes.
+Next you are going to type in your password you just reset. (Notice: If it's been less than 15 min after you reset your password it might not work)
+After you type in your password your terminal should look something like this.
