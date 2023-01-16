@@ -19,3 +19,7 @@ If it asks you if you want to continue connecting, type yes.
 Next you are going to type in your password you just reset. (Notice: If it's been less than 15 min after you reset your password it might not work)
 After you type in your password your terminal should look something like this:
 ![Image](Screen Shot 2023-01-12 at 2.42.45 PM.png)
+If you mess up the password once you will get a notice like my picture where it tells you there was 1 failed attempt on your acount.
+Once you enter the remote server, run some commands such as cd, ls, pwd, mkdir, cp, cd ~, ls -lat, ls -a and ls <directory> where directory is the directory is someone in your group
+If you run some of those commands it should look like this:
+  
