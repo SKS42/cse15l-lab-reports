@@ -11,6 +11,7 @@ https://code.visualstudio.com/
 If you have mac download the mac version, if you have windows64 or 32 download the corect version. 
 Once you have visual studio code downloaded and opened, it should look something like this:
 ![Image](Screen Shot 2023-01-12 at 2.19.02 PM.png)
+I already had visual studio code downloaded so all I had to do was open visual studio code up.
 Now you are going to open the terminal in visual studio code. You can do this by selecting terminal at the top and selecting new terminal.
 Next you are going to log in to the UCSD remote server using visual studio code.
 To enter the remote server enter this: **ssh cs15lwi23zz@ieng6.ucsd.edu**
@@ -19,7 +20,8 @@ If it asks you if you want to continue connecting, type yes.
 Next you are going to type in your password you just reset. (Notice: If it's been less than 15 min after you reset your password it might not work)
 After you type in your password your terminal should look something like this:
 ![Image](Screen Shot 2023-01-12 at 2.42.45 PM.png)
+In this image I misread the directions and typed in $ eventhough I should not have and then I didn't know it did not show you the character when typing the password so I messed up the first password. I also did not get a message asking if you would like to continue like my lab partners did for some reason.
 If you mess up the password once you will get a notice like my picture where it tells you there was 1 failed attempt on your acount.
 Once you enter the remote server, run some commands such as cd, ls, pwd, mkdir, cp, cd ~, ls -lat, ls -a and ls <directory> where directory is the directory is someone in your group
 If you run some of those commands it should look like this:
-  
+![Image](
