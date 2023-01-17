@@ -25,4 +25,6 @@ If you mess up the password once you will get a notice like my picture where it 
 Once you enter the remote server, run some commands such as cd, ls, pwd, mkdir, cp, cd ~, ls -lat, ls -a and ls <directory> where directory is the directory is someone in your group
 If you run some of those commands it should look like this:
 ![Image](Screen Shot 2023-01-12 at 3.03.40 PM.png)
+In this image I ran the command pwd which printed the working directory then I ran the command ls which means list and it printed out perl15, I do not know what perl15 means. Then I tried some of the commands such as ls -lat and ls -a. I also did not know what the output of those commands meant. I also tried the cd command and accidentaly exited my diretory, I went back to my directory by using the command cd /home/linux/ieng6/cs15lwi23/cs15lwi23aji.
+Finally you can exit the remote server by typing exit.
 
