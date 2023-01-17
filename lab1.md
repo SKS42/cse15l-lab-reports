@@ -24,4 +24,5 @@ In this image I misread the directions and typed in $ eventhough I should not ha
 If you mess up the password once you will get a notice like my picture where it tells you there was 1 failed attempt on your acount.
 Once you enter the remote server, run some commands such as cd, ls, pwd, mkdir, cp, cd ~, ls -lat, ls -a and ls <directory> where directory is the directory is someone in your group
 If you run some of those commands it should look like this:
-![Image](
+![Image](Screen Shot 2023-01-12 at 3.03.40 PM.png)
+
