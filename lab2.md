@@ -86,7 +86,7 @@ After code: ![image](Screen Shot 2023-02-13 at 5.15.28 PM.png) <br>
 What I changed to fix the bug, was I changed each of the for each loops, to a regular for loop and saved which index had the lowest number. If all elements in the array were the same, the index that it would skip would just be the first element. This seemed to fix the bug and pass all the junit tests.
 
 # Part 3
-What I learned in week 2 and week 3 that I did not know before is I did not know what a webserver was, now I know that a wbserver takes requests from people through a web browser and responds with a text of a web page. I also learned how to read a url (I know what the domain, path and query are). And finally I know how to spot symptoms and bugs in methods.
+What I learned in week 2 and week 3 that I did not know before is I did not know what a webserver was, now I know that a webserver takes requests from people through a web browser and responds with a text of a web page. I also learned how to read a url (I know what the domain, path and query are). And finally I know how to spot symptoms and bugs in methods.
 
     
 
