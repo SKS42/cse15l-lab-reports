@@ -70,6 +70,7 @@ class ServerHttpHandler implements HttpHandler {
     assertEquals(expected, ArrayExamples.averageWithoutLowest(input1),.2);
     }
  ```
+ ![image](Screen Shot 2023-02-13 at 4.15.50 PM.png)
  ``` 
   @Test
   public void testAverageWithoutLowest2(){
