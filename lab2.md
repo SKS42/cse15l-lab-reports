@@ -53,19 +53,6 @@ class ServerHttpHandler implements HttpHandler {
         }
     }
 }
-
-public class Server {
-    public static void start(int port, URLHandler handler) throws IOException {
-        HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
-
-        //create request entrypoint
-        server.createContext("/", new ServerHttpHandler(handler));
-
-        //start the server
-        server.start();
-        System.out.println("Server Started! Visit http://localhost:" + port + " to visit.");
-    }
-}
 ```
 1. The methods that are called on this screenshot are the main method in the StringServer class, the start method in the server class, and the handle method in the serverHttpHandler class 
 2. The argument for the main method in the Stringserver class is String[] args and a field is int port. The argument for the handleRequest is the url and the field is string s. The argument for the start method is the port and the handler and the field is the HttpServer server. The argument for the handle method is httpExchange exchange and the field is string ret
