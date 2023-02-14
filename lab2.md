@@ -79,6 +79,7 @@ class ServerHttpHandler implements HttpHandler {
     assertEquals(expected, ArrayExamples.averageWithoutLowest(input1),.2); 
   }
    ``` 
+![image](Screen Shot 2023-02-13 at 4.23.59 PM.png)
 The symptom is that the method averageWithoutLowest produces the wrong output when all the elements in the array are the same. The bug is that when the array has all the same elements, the method does not add anything to the varaiable sum which is originally equal to 0. So when the method returns sum / (arr.length -1), it will always return 0 instead of the correct value.
 # Part 3
 What I learned in week 2 and week 3 that I did not know before is I did not know what a webserver was, now I know that a wbserver takes requests from people through a web browser and responds with a text of a web page. I also learned how to read a url (I know what the domain, path and query are). And finally I know how to spot symptoms and bugs in methods.
