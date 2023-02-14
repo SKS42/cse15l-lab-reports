@@ -82,7 +82,8 @@ class ServerHttpHandler implements HttpHandler {
 ![image](Screen Shot 2023-02-13 at 4.23.59 PM.png) ![image](Screen Shot 2023-02-13 at 4.23.35 PM.png)
 The symptom is that the method averageWithoutLowest produces the wrong output when all the elements in the array are the same. The bug is that when the array has all the same elements, the method does not add anything to the varaiable sum which is originally equal to 0. So when the method returns sum / (arr.length -1), it will always return 0 instead of the correct value.
 Before code: ![image](Screen Shot 2023-02-13 at 4.32.48 PM.png)
-After code: ![image]
+After code: ![image](Screen Shot 2023-02-13 at 5.15.28 PM.png)
+What I changed to fix the bug, was I changed each of the for each loops, to a regular for loop and saved which index had the lowest number. If all elements in the array were the same, the index that it would skip would just be the first element. This seemed to fix the bug and pass all the junit tests.
 
 # Part 3
 What I learned in week 2 and week 3 that I did not know before is I did not know what a webserver was, now I know that a wbserver takes requests from people through a web browser and responds with a text of a web page. I also learned how to read a url (I know what the domain, path and query are). And finally I know how to spot symptoms and bugs in methods.
