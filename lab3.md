@@ -944,4 +944,7 @@ The -iname command is exactly the same as the -name command except it does not c
 sebastiansmith@Sebastians-MacBook-Pro-3 docsearch % find written_2 -iname "BERLITZ1"
 written_2/travel_guides/berlitz1
 ```
-The -iname "BERLITZ1" command is going to look for files and directories within the written_2 directory that end with berlitz1. The capital letters do not matter so the file could end in BeRlItz1 and the command will still list it.
+The -iname "BERLITZ1" command is going to look for files and directories within the written_2 directory that end with berlitz1. The capital letters do not matter so the file could end in BeRlItz1 and the command will still list it. <br>
+#Sources:
+https://www.binarytides.com/linux-find-command-examples/ <br> https://www.redhat.com/sysadmin/linux-find-command
+
